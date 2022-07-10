@@ -6,7 +6,28 @@
 }
 
 body {
-    background-color: rgb(249, 250, 251);
+    animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: rgb(159, 255, 255);
+  }
+  20% {
+    background-color: rgb(255, 240, 157);
+  }
+  40% {
+    background-color: rgb(254, 171, 171);
+  }
+  60% {
+    background-color: rgb(251, 198, 255);
+  }
+  80% {
+    background-color: rgb(151, 255, 151);
+  }
+  100% {
+    background-color: rgb(186, 254, 254);
+  }
 }
 
 .img1 {
@@ -39,7 +60,7 @@ body {
 .timeline {
     pointer-events: auto;
     cursor: pointer;
-    background: #e7e7e7;
+    background:#fff;
     border: none;
     font-family: inherit;
     font-size: inherit;
