@@ -7,81 +7,112 @@
     <title id="main">Simeon A. Georgiev</title>
 </head>
 <body id = sp>  
-    <div id="backdrop"></div>  
+    <div id="backdrop"></div>
+    <div class = "welcome_modal welcome_card" id = "add-welcome-modal">
+      <div class = "welcome_modal__content">
+          <div class = "welcome_modal__title">
+            <h3 >Welcome everyone!</h3>
+          </div>
+          <p>Thank you for spending time on my "resume". I appreciate that a lot.<br>
+            <br>
+            <strong>Keep in mind that you will find a lot more information about my professional carrer on my LinkedIn.</strong><br>
+            <br>
+            The reason I tried to create this online CV which is available for everyone is not one, but the most important among them
+            is that I wanted to freshen my JavaScript, HTML and CSS skills. I have probably missed a lot of "life steps" in the 
+            timeline you are about to explore but if you are eager to find out more information about me, you are free to check my
+            LinkedIn, Instagram, Facebook or GitHub accounts.<br>
+            <br>
+            To explore the events more, you can simply click on the either the titles of the events or the dots.<br>
+            <br>
+            <strong>red dot</strong> - Means that this event is non-proffesional and is not connected to my carrer, however it is important for who I am now.<br>
+            <br>
+            <strong>orange dot</strong> - Means that this event is connected to my carrer and is considered to be a "proffesional step".<br>
+            <br>
+            <br>
+            <strong>Thank you once again for your time!</strong>
+          </p>
+          <div class="btn_close_modal" id="btn-close-modal-ref">
+            <a href="#" class="btn_close_modal_ref">Got it!</a>
+          </div>
+      </div>
+  </div>
     <div class = "modal card" id = "add-modal">
         <div class = "modal__content">
-            
+            <h3 class = "modal__title" id="modal_title"></h3>
+            <p id = "description"></p>
+            <img id="img-descr" class="img_descr">
+            <button class="btnSubmit" id="btn-submit">Wow!</button>
         </div>
     </div>
     <div class="timeline">
         <div class="init container left" id="birth">
           <div class="content">
-            <h2>2001 August</h2>
+            <h2>2001 August - "Hello World!"</h2>
           </div>
         </div>
         <div class="container right" id="firstGrade">
           <div class="content">
-            <h2>2008 September</h2>
+            <h2>2008 September - "First steps in school"</h2>
           </div>
         </div>
         <div class="non-pro container left" id="chess">
             <div class="content">
-              <h2>2008 November</h2>
+              <h2>2008 November - "Defend the King!"</h2>
             </div>
         </div>
         <div class="non-pro container right" id="football">
             <div class="content">
-              <h2>2009 April</h2>
+              <h2>2009 April - "Win tastes better when in team"</h2>
             </div>
         </div>
         <div class="container left" id="highSchool">
             <div class="content">
-              <h2>2015 September</h2>
+              <h2>2015 September - "What the big city has for me"</h2>
             </div>
         </div>
         <div class="non-pro container right" id="trainingBox">
             <div class="content">
-              <h2>2018 February</h2>
+              <h2>2018 February - "Ouch!"</h2>
             </div>
         </div>
         <div class="container left" id="deutsch">
             <div class="content">
-              <h2>2018 April</h2>
+              <h2>2018 April - "Hallo Welt!"</h2>
             </div>
         </div>
         <div class="non-pro container right" id="swimming">
             <div class="content">
-              <h2>2018 June</h2>
+              <h2>2018 June - "Technique beats muscles!"</h2>
             </div>
         </div>
         <div class="container left" id="licenseB">
             <div class="content">
-              <h2>2019 August</h2>
+              <h2>2019 August - "I want a Mercedes!"</h2>
             </div>
         </div>
         <div class="container right" id="university">
             <div class="content">
-              <h2>2020 September</h2>
+              <h2>2020 September - "Engineer it is"</h2>
             </div>
         </div>
         <div class="container left" id="iqvia">
             <div class="content">
-              <h2>2021 July</h2>
+              <h2>2021 July - "What's this "data sciense"?"</h2>
             </div>
         </div>
         <div class="container right" id="assistant">
             <div class="content">
-              <h2>2021 September</h2>
+              <h2>2021 September - "Be the assistant you needed when you were a student"</h2>
             </div>
         </div>
         <div class="container left" id="softUni">
             <div class="content">
-              <h2>2021 October</h2>
+              <h2>2021 October - "I am hungry for more knowledge"</h2>
             </div>
         </div>
         <div class="container right" id="chairman">
             <div class="content">
-              <h2>2022 March</h2>
+              <h2>2022 March - "Now that's responsibility!"</h2>
             </div>
         </div>
       </div>
