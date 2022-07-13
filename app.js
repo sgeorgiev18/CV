@@ -2,19 +2,19 @@ const objectTimeline = [
     {
         "id": 1,
         "title": "Birth",
-        "descr": "In 2001 on the 26th of August I was born in Sofia.",
+        "descr": "On the 26th of August 2001 I was born in Sofia. And if you are asking yourself that question... Yes, I am Virgo.",
         "pic": "pics/hello_world.png"
     },
     {
         "id": 2,
         "title": "Elementary School",
-        "descr": "In 2008 in September I entered Elementary School \"Hristo Botev\" in Elin Pelin City.",
+        "descr": "In 2008 in September, at the age of 8, I entered Elementary School \"Hristo Botev\" in Elin Pelin City. What a time it was!",
         "pic": "pics/first_grade.jpg"
     },
     {
         "id": 3,
         "title": "Chess trainings",
-        "descr": "In 2008 in November I started training chess in Team \"Verila\" Chess Club in Elin Pelin City. I trained chess for more than 10 years and I am still practicing it. (I am the boy with the yellow t-shirt)",
+        "descr": "In 2008 in November I started training chess in Team \"Verila\" Chess Club in Elin Pelin City. I trained chess for more than 10 years and I am still practicing it. (I am the boy with the yellow t-shirt).",
         "pic": "pics/chess_first.jpg"
     },
     {
@@ -26,19 +26,19 @@ const objectTimeline = [
     {
         "id": 5,
         "title": "High School",
-        "descr": "In 2015 in September I entered 31st Secondary School \"Ivan Vazov\" for Foreign Languages and Management in Sofia.",
+        "descr": "In 2015 in September I entered 31st Secondary School \"Ivan Vazov\" for Foreign Languages and Management in Sofia. Really miss those years and my high-school-friends. There were numerous excursions to destinations like Bansko, Pamporovo, Ravda and so on and the memories we made together will last.",
         "pic": "pics/sychem.jpg"
     },
     {
         "id": 6,
         "title": "Box Trainings",
-        "descr": "In 2018 in February I started training box in boxing team \"Academica\" in Sofia. Trained box for nearly 8 months.",
+        "descr": "In 2018 in February I started training box in boxing team \"Academica\" in Sofia. Trained box for approximately 8 months. Learned a lot of important lessons (if you know what I mean).",
         "pic": "pics/boxing.jpg"
     },
     {
         "id": 7,
         "title": "Started learning German",
-        "descr": "In 2018 in April I started learning german language in \"Goethe Institut Sofia\" in Sofia. I started from A2 Level since I was learning it in High School too.",
+        "descr": "In 10th grade I discovered that there is a german faculty in the Technical University of Sofia where you can study \"Informatics\" and I immediately decided that I will study there! So in 2018 in April I started learning german language in \"Goethe Institut Sofia\" in Sofia. I started from A2 Level since I was learning it in High School too.",
         "pic": "pics/goethe.png"
     },
     {
@@ -62,7 +62,7 @@ const objectTimeline = [
     {
         "id": 11,
         "title": "Started Internship",
-        "descr": "In 2021 I started my first Internship in \"IQVIA\" as a \"Statistical Programmer\". After the internship which lasted 6 months, I stayed in the firm and am still working there as \"Senior Statistical Programming Technician\".",
+        "descr": "In 2021 I started my first Internship in \"IQVIA\" as a \"Statistical Programmer\". After the internship which lasted 6 months, I stayed in the firm and am still working there as \"Senior Statistical Programming Technician\". Got the chance to work with technologies like \"Jira\", R(programming language), \"Git\" of course. Worked on developing Dashboards and got to know the \"Statistical programming\". Currently I am broadening my experience with this type of programming and I am getting to learn \"SAS\".",
         "pic": "pics/IQVIA.jpg"
     },
     {
@@ -80,7 +80,7 @@ const objectTimeline = [
     {
         "id": 14,
         "title": "Got hired as a Chairman",
-        "descr": "In 2022 in October I was elected to be the new \"Chairman\" of the chess club I was training as a kid in.",
+        "descr": "In 2022 in October I was elected to be the new \"Chairman\" of the chess club I was training as a kid in. Can't wait to see how it will be like!",
         "pic": "pics/chess.jpg"
     }
             
