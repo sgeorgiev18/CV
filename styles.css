@@ -17,6 +17,10 @@ body {
   display: none;
 }
 
+.credits_mobile {
+  display: none;
+}
+
 .img1 {
   width: 37%;
   height: 100%;
@@ -31,16 +35,16 @@ body {
     top: 0;
     margin-left: 42%;
     margin-top: 1%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 35%;
 }
 
 .greet_p1 {
-    font-size: 3.4vw;
+    font-size: 3.8vw;
 }
 
 .greet_p2 {
-    font-size: 2.4vw;
+    font-size: 2.75vw;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -227,7 +231,7 @@ body {
     position: relative;
     margin-top: 100%;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.3vw;
   }
 
@@ -246,33 +250,34 @@ body {
     }
 
     .img1 {
-      width: 47vw;
-      height: 70vw;
-      top: 5%;
+      width: 55vw;
+      height: 73vw;
+      top: 4%;
       position: absolute;
-      left: 26%;
+      left: 22%;
     }
 
     .greet_mobile {
       display: block;
       position: absolute;
-      top: 85vw;
+      top: 84vw;
       margin-left: 2%;
       text-align: center;
       line-height: 10vw;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     .descr_mobile {
-      font-size: 5vw;
+      font-size: 4.5vw;
     }
 
     .name_mobile {
-      font-size: 7vw;
+      font-size: 6vw;
     }
 
     .buttons_mobile {
       width: 100%;
-      height: 7%;
+      height: 8%;
       position: absolute;
       display: inline-block;
       top: 115vw;
@@ -331,12 +336,12 @@ body {
 
     .timeline {      
     position: absolute;
-    left: 27vw;
+    left: 24vw;
     color: white;
-    top: 110vw;
-    width: 45vw;
-    height: 15vw;
-    padding: 6% 2%;
+    top: 107.5vw;
+    width: 55vw;
+    height: 20vw;
+    padding: 8% 2%;
     }
 
     .timeline:hover{
@@ -425,5 +430,23 @@ body {
       50%,100%{
           bottom: 100%;
       }
+    }
+
+    .credits_mobile {
+      display: inline-block;
+    }
+
+    .mail_mobile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .tel_mobile {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
   } 
