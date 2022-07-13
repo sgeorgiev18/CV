@@ -238,6 +238,7 @@ body {
 
     body {
       background-image: url("pics/bg-imag-mobile.jpg");
+      background-color: unset;
     }
 
     .img1 {
